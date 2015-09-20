@@ -1,0 +1,97 @@
+<!doctype html>
+<html manifest="dinodiving.appcache">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+        <title>Dino Diving</title>
+		<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="gamestyle.css">
+    </head>
+    <body>
+		<div id="preloader"></div>
+        <div id="swiffycontainer">
+			<div id="submit-score">
+				<div class="name-input">
+					<label for="name-input">ENTER NAME</label>
+					<input type="text" class="name-input" id="name-input" value="Anonymous" maxlength="18" data-entryId = "1"/>
+				</div>
+				<div class="btn">Send</div>
+			</div>
+			<div id="src-code">
+				<article class="game-article">
+					<h1 class="game-article-title">About Dino Diving</h1>
+					<div class="game-article-content">
+						<p>Dino Diving is a multi-platform and cross-browser game that explores minimalistic design and resolution independent gameplay. Its design is sleek and utilises landscape and portrait responsive formatting so it is compatible on any device. It uses a compact JSON representation of the game animation, which is rendered using SVG, HTML5, CSS3 and Javascript. It is published and distributed in the following formats:</p><!--
+						--><ol>
+							<li>
+								Browser game
+							</li>
+							<li>
+								Web app
+							</li>
+							<li>
+								Android APK file (including Java wrapper with Admob Banner and Interstitial Ads and Google Analytics Integration).
+							</li>
+							<li>
+								SWF output
+							</li>
+						</ol><!--
+						--><p>Source files are provided for each one of them.<br>You can fork it on Github:</br><a href="https://github.com/dondido/dinodiving" target="_blank">https://github.com/dondido/dinodiving</a></p>
+					</div>
+				</article>
+				<div class="close-btn btn">Close</div>
+			</div>
+			<div id="scoreboard">
+				<div class="list">
+					<table>
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<td>
+									<div class='checkbox'>
+										<div></div>
+									</div>
+								</td>
+								<td>Game</td>
+								<td>Name</td>
+								<td>Date</td>
+								<td>Score</td>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+				<div class="scoreboard-btns">
+					<div class="clear-btn btn">Delete</div>
+					<div class="close-btn btn">Close</div>
+				</div>
+			</div>
+        </div>
+        <audio id="music" preload>
+            <source src="music.mp3">
+        </audio>
+		<audio id="pop" preload>
+            <source src="pop.mp3">
+        </audio>
+        <audio id="tap" preload>
+            <source src="tap.mp3">
+        </audio>
+        <audio id="water" preload>
+            <source src="water.mp3">
+        </audio>
+        <audio id="ground" preload>
+            <source src="ground.mp3">
+        </audio>
+        <script src="runtimeCustom52.js"></script>
+        <script src="swiffyobject.js"></script>
+        <script src="init.js"></script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "Dino Diving",
+  "description": "When a dino pops up, click or tap on the little chappy to make him dive and get the highest score.",
+  "version": "1",
+  "icons": {
+    "32": "/icons/32.png",
+    "60": "/icons/60.png",
+    "90": "/icons/90.png",
+    "120": "/icons/120.png",
+    "128": "/icons/128.png",
+    "256": "/icons/256.png",
+    "512": "/icons/512.png"
+  },
+  "launch_path": "/index.html",
+  "installs_allowed_from": [
+    "*"
+  ],
+  "developer": {
+    "name": "Dian Dimitrov",
+    "url": "http://publicgamelibrary.com"
+  }
+}
