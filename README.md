@@ -6,7 +6,7 @@ Browser game - http://dinodiving.publicgamelibrary.com/
 
 Chrome Web app - https://chrome.google.com/webstore/detail/buddy-racer/plnkfkpbgjpmgfjkpepkkdbiakiicfnn
 
-Android APK file (including Java wrapper with Admob Banner and Interstitial Ads and Google Analytics Integration) - https://play.google.com/store/apps/details?id=dinodiving.publicgamelibrary.com.dinodiving
+Android APK file (including Java wrapper with Appbrain Banner and Interstitial Ads and Google Analytics Integration) - https://play.google.com/store/apps/details?id=dinodiving.publicgamelibrary.com.dinodiving
 
 Firefox packaged app https://marketplace.firefox.com/app/dino-diving/
 
